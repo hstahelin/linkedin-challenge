@@ -38,16 +38,16 @@ h1 {
 		**/
     flex-direction: row;
     .left-container {
-      width: 90%;
+      flex: 1 1 0;
+    }
+    .right-container {
+      flex: 2 1 0;
     }
   }
   @include desktop {
     /**
 			TODO: Fix me
 		**/
-    .left-container {
-      width: 70%;
-    }
   }
 }
 

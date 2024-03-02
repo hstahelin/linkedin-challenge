@@ -38,7 +38,10 @@ h1 {
     flex-direction: row;
   }
   .container .left-container {
-    width: 90%;
+    flex: 1 1 0;
+  }
+  .container .right-container {
+    flex: 2 1 0;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -46,9 +49,6 @@ h1 {
     /**
     	TODO: Fix me
     **/
-  }
-  .container .left-container {
-    width: 70%;
   }
 }
 
